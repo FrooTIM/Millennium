@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+:root {
+    --background-header: #13131379;
+    --white: #fff;
+    --discord-color: #5865F2;
+    --telegram-color: #2AABEE;
+    --primary-color: #5353F8;
+    --blur-main-page: #feb8a72e;
 }
 
 html, body {
@@ -19,4 +30,67 @@ html, body {
 
 footer {
     flex: 0 0 auto
+}
+
+header {
+    display: flex;
+    position: fixed;
+    margin: 60px 0;
+    padding: 0 auto;
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    width: 1000px;
+    background-color: var(--background-header);
+    justify-content: space-between;
+    padding: 0 30px;
+    border-radius: 20px;
+    height: 100%;
+    align-items: center;
+}
+
+.header-container .logo img {
+    height: 50px;
+}
+
+.header-container .menu-list {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.header-container .menu-list .menu-link {
+    text-decoration: none;
+    color: var(--white);
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-container .menu-list .menu-link:hover {
+    border-bottom: 2px solid var(--white);
+}
+
+.header-container .icons-contacts {
+    display: flex;
+    gap: 15px;
+}
+
+.header-container .discord, .header-container .telegram {
+    color: var(--white);
+    font-size: 35px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.header-container .discord:hover {
+    color: var(--discord-color);
+}
+
+.header-container .telegram:hover {
+    color: var(--telegram-color);
 }

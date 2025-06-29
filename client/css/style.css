@@ -1,0 +1,25 @@
+.main {
+    min-height: 100%;
+}
+
+.preview {
+    height: 100vh;
+    background-image: url('../images/backgroundMainPage.png');
+    background-size: cover;
+}
+
+.preview .preview-container {
+    height: 100%;
+    width: 100%;
+    background-color: var(--blur-main-page);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.preview .preview-container.first-pers {
+    background-image: url('../images/main_pers.png');
+}
+
+.preview .preview-container.second-pers {
+    background-image: url('../images/girl.png');
+}

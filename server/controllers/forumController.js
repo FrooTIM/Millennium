@@ -1,7 +1,6 @@
 const {ThemeForum, ThemeRelation} = require('../models/models');
 const ApiError = require('../error/ApiError');
 const sequelize = require('../db');
-const { Op } = require('sequelize');
 
 class ForumController {
     async create(req, res) {

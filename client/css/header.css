@@ -14,7 +14,8 @@
     --blur-main-page: #feb8a72e;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -80,7 +81,8 @@ header {
     gap: 15px;
 }
 
-.header-container .discord, .header-container .telegram {
+.header-container .discord,
+.header-container .telegram {
     color: var(--white);
     font-size: 35px;
     text-decoration: none;

@@ -23,3 +23,66 @@
 .preview .preview-container.second-pers {
     background-image: url('../images/girl.png');
 }
+
+.First-container-Online {
+    display: flex;
+    width: 450px;
+    background-color: var(--background-header);
+    justify-content: center;
+    position: relative;
+    padding: 0 10px;
+    border-radius: 20px;
+    height: 35px;
+    top: 230px;
+    align-items: center;
+}
+
+.All-Online {
+    text-decoration: none;
+    color: var(--white);
+    font-family: "Manrope", sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.Second-container-Online {
+    display: flex;
+    width: 450px;
+    background-color: var(--background-header);
+    justify-content: center;
+    position: relative;
+    padding: 0 10px;
+    border-radius: 20px;
+    height: 35px;
+    top: 240px;
+    align-items: center;
+}
+
+.Server-Online-1 {
+    text-decoration: none;
+    color: var(--white);
+    font-family: "Manrope", sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.Third-container-Online {
+    display: flex;
+    width: 450px;
+    background-color: var(--background-header);
+    justify-content: center;
+    position: relative;
+    padding: 0 10px;
+    border-radius: 20px;
+    height: 35px;
+    top: 250px;
+    align-items: center;
+}
+
+.Server-Online-2 {
+    text-decoration: none;
+    color: var(--white);
+    font-family: "Manrope", sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+}

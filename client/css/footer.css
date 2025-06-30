@@ -1,0 +1,74 @@
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-black-footer);
+    color: var(--white);
+    font-family: "Manrope", sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    max-width: 1440px;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.footer-container .logo-with-company-description {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-container .logo-with-company-description .logo img {
+    width: 400px;
+}
+
+.footer-container .logo-with-company-description .company {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-container .logo-with-company-description .company h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-container .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-container .contacts .our-contacts {
+    font-size: 24px;
+}
+
+.footer-container .important-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-container .important-info .title-info {
+    font-size: 24px;
+}
+
+.footer-container .important-info .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.footer-container .important-info .info a {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.footer-container .important-info .info a:hover {
+    color: var(--primary-color);
+}

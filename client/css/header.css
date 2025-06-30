@@ -12,6 +12,7 @@
     --telegram-color: #2AABEE;
     --primary-color: #5353F8;
     --blur-main-page: #feb8a72e;
+    --background-black-footer: #181818;
 }
 
 html,
@@ -76,23 +77,23 @@ header {
     border-bottom: 2px solid var(--white);
 }
 
-.header-container .icons-contacts {
+.icons-contacts {
     display: flex;
     gap: 15px;
 }
 
-.header-container .discord,
-.header-container .telegram {
+.icons-contacts .discord,
+.icons-contacts .telegram {
     color: var(--white);
     font-size: 35px;
     text-decoration: none;
     transition: 0.5s;
 }
 
-.header-container .discord:hover {
+.icons-contacts .discord:hover {
     color: var(--discord-color);
 }
 
-.header-container .telegram:hover {
+.icons-contacts .telegram:hover {
     color: var(--telegram-color);
 }

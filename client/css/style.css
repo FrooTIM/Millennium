@@ -14,6 +14,8 @@
     background-color: var(--blur-main-page);
     background-repeat: no-repeat;
     background-position: center bottom;
+    font-family: "Manrope", sans-serif;
+    display: flex;
 }
 
 .preview .preview-container.first-pers {
@@ -26,77 +28,66 @@
 }
 
 
-.online-boxes {
+.preview .preview-container .flex-grid {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+    padding-top: 200px;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    width: 100%;
 }
 
-.Online-block {
-    background-color: var(--background-header);
-    justify-content: center;
-    padding: 10px;
-    border-radius: 50px;
-    height: 100%;
-    width: 400px;
-    text-align: center;
-}
-
-
-.Online-text {
-    text-decoration: none;
-    color: var(--white);
-    font-family: "Manrope", sans-serif;
-    font-size: 23px;
-    font-weight: 500;
-}
-
-.preview .bottom-boxes{
+.preview .preview-container .online-boxes {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 10px;
+    max-width: 400px;
 }
 
-.download {
+.preview .preview-container .flex-grid.first-screen .button {
+    background-color: var(--background-header);
     display: flex;
-    background-color: var(--background-header);
-    color: var(--white);
     justify-content: center;
-    flex-direction: row;
-    padding: 6px;
-    border-radius: 50px;
-    width: 200px;
-    text-align: center;
-    font-size: 30px;
-}
-
-.bottom-boxes .download img {
-    height: 30px;
-    margin-left: 20px;
-    height: auto;
-}
-
-.forum {
-    font-size: 30px;
-    background-color: var(--background-header);
     color: var(--white);
-    padding: 6px;
-    border-radius: 50px;
-    width: 150px;
-    text-align: center;
+    padding: 15px 40px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    backdrop-filter: blur(5px);
 }
 
-.preview-container.second-pers .aboutUs {
-    font-size: 45px;
-    background-color: var(--background-header);
-    color: var(--white);
-    text-align: center;
-    justify-content: center;
+.preview .preview-container .flex-grid.first-screen .button.online-block {
+    font-size: 24px;
+}
+
+.preview .preview-container .bottom-boxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.preview .preview-container .flex-grid.first-screen .bottom-boxes .button {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px 100px;
+    font-size: 24px;
+    font-family: 'SAIBA-45', sans-serif;
+    font-weight: 300;
+}
+
+.preview .preview-container .bottom-boxes .right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.preview .preview-container .bottom-boxes .right .button.download {
+    display: flex;
+    gap: 10px;
     align-items: center;
-    padding: 10px;
-    border-radius: 70px;
-    width: 200px;
-    
+}
+
+.preview .preview-container .bottom-boxes .right .button.download img {
+    width: 27px;
 }

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
+@font-face {  
+    font-family: 'SAIBA-45';  
+    src: url('../font/SAIBA-45/SAIBA-45-Regular-\(v1.1\).otf') format('opentype');  
+}  
+
 * {
     margin: 0;
     padding: 0;
@@ -53,6 +58,7 @@ header {
     border-radius: 20px;
     height: 100%;
     align-items: center;
+    backdrop-filter: blur(5px);
 }
 
 .header-container .logo img {

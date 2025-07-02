@@ -22,22 +22,29 @@
 
 .preview .preview-container.second-pers {
     background-image: url('../images/girl.png');
+    background-position: left center;
 }
 
-.First-container-Online {
+
+.online-boxes {
     display: flex;
-    width: 450px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.Online-block {
     background-color: var(--background-header);
     justify-content: center;
-    position: relative;
-    padding: 0 10px;
-    border-radius: 20px;
-    height: 35px;
-    top: 230px;
-    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+    height: 100%;
+    width: 400px;
+    text-align: center;
 }
 
-.All-Online {
+
+.Online-text {
     text-decoration: none;
     color: var(--white);
     font-family: "Manrope", sans-serif;
@@ -45,44 +52,51 @@
     font-weight: 500;
 }
 
-.Second-container-Online {
+.preview .bottom-boxes{
     display: flex;
-    width: 450px;
-    background-color: var(--background-header);
-    justify-content: center;
-    position: relative;
-    padding: 0 10px;
-    border-radius: 20px;
-    height: 35px;
-    top: 240px;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
 }
 
-.Server-Online-1 {
-    text-decoration: none;
-    color: var(--white);
-    font-family: "Manrope", sans-serif;
-    font-size: 23px;
-    font-weight: 500;
-}
-
-.Third-container-Online {
+.download {
     display: flex;
-    width: 450px;
     background-color: var(--background-header);
+    color: var(--white);
     justify-content: center;
-    position: relative;
-    padding: 0 10px;
-    border-radius: 20px;
-    height: 35px;
-    top: 250px;
-    align-items: center;
+    flex-direction: row;
+    padding: 6px;
+    border-radius: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
 }
 
-.Server-Online-2 {
-    text-decoration: none;
+.bottom-boxes .download img {
+    height: 30px;
+    margin-left: 20px;
+    height: auto;
+}
+
+.forum {
+    font-size: 30px;
+    background-color: var(--background-header);
     color: var(--white);
-    font-family: "Manrope", sans-serif;
-    font-size: 23px;
-    font-weight: 500;
+    padding: 6px;
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+}
+
+.preview-container.second-pers .aboutUs {
+    font-size: 45px;
+    background-color: var(--background-header);
+    color: var(--white);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 70px;
+    width: 200px;
+    
 }

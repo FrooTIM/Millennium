@@ -1,4 +1,4 @@
-/* .main .scroll {
+.main .scroll {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -16,4 +16,4 @@
     font-family: "Manrope", sans-serif;
     font-size: 6px;
     font-weight: 200;
-} */
+}
